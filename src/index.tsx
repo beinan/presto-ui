@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'fontsource-roboto';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -11,11 +10,7 @@ import theme from './theme';
 import { Provider } from 'react-redux'
 import store from './store/store'
 
-import './index.css'
-
 const render = () => {
-    const App = require('./App').default
-
     ReactDOM.render(
         <Provider store={store}>
             <ThemeProvider theme={theme}>
