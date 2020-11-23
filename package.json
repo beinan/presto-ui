@@ -34,7 +34,7 @@
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
     "plugins": ["@typescript-eslint"],
-    "extends": ["plugin:@typescript-eslint/recommended"],
+    "extends": ["plugin:@typescript-eslint/recommended"]
   },
   "browserslist": {
     "production": [
@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "@typescript-eslint/parser": "^4.1.1",
-    "eslint": "^7.9.0"
+    "@typescript-eslint/parser": "^4.1.1"
   }
 }
